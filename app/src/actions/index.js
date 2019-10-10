@@ -13,7 +13,7 @@ export const fetchCatPics = () => dispatch => {
         }
         const params = {
         
-        params: {limit: 10}
+        params: {limit: 12}
         }
 
     dispatch({ type: START_FETCHING });

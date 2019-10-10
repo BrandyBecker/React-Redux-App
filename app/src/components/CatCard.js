@@ -3,10 +3,10 @@ import {Card} from 'react-bootstrap';
 
 const CatCard = (props) => {
     return (
-        <Card className="singleCard" style={{ width: '20rem' }}>
-            <Card.Img variant="top" src={props.data.url} />
+       
+            <Card.Img className="catPics" variant="top" src={props.data.url} />
         
-        </Card>
+      
     )
 }
 
