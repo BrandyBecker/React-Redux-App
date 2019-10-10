@@ -31,4 +31,16 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-auto-rows: auto;
+    justify-items: center;
+    margin: 2rem;
+}
+
+.singleCard:hover{
+  transform: scale(1.08);
+    
+}
+
+.singleCard{
+    border: 3px solid white !important;
+    margin: 1rem;
 }
